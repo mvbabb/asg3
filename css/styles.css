@@ -1,0 +1,78 @@
+.ui.segment.grey100 {
+    background-color: #F5F5F5;
+    margin: 0 0 10px 0;
+    box-shadow: none;
+    border: none;
+}
+
+.card.hide{
+	display:none;
+}
+.ui.segment.gallery{
+	height:9em;
+}
+.ui.segment.gallery h3{
+	height:55%;
+}
+.ui.segment.gallery h3:hover{
+	color:blue;
+}
+.ui.segment.gallery p{
+	color:gray;
+}
+.ui.segment:hover.gallery{
+box-shadow: 3px 4px 15px -4px rgba(0,0,0,0.61);
+}
+.ui.segment:hover.subject{
+	box-shadow: 3px 4px 15px -4px rgba(0,0,0,0.61);
+	
+}
+.ui.segment.subject h3:hover{
+	color:blue;
+}
+
+.painting-thumbnail:hover{
+box-shadow: -11px -4px 29px -7px rgba(59,59,59,0.58);
+
+}
+.ui.cards>.card.genre:hover, .ui.cards>.card.artist:hover
+{
+		box-shadow: 3px 4px 15px -4px rgba(0,0,0,0.61);
+}
+.ui.cards>.card.genre:hover>.content>.header:not(.ui), .ui.cards>.card.artist:hover>.content>.header:not(.ui){
+	color:blue;
+	
+}
+
+.hero-container {
+    min-height: 400px;
+    background-image: url(../images/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 900px;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+}
+
+.browse-genre-container {
+    min-height: 100px;
+    background-image: url(../images/banner1.jpg);
+}
+
+.genre-container {
+    min-height: 150px;
+    background-image: none;
+    background-color: lightgray;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bordered {
+    border: 1px solid lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
